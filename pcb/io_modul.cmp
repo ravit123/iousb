@@ -1,0 +1,164 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Pá 25. červenec 2014, 13:30:14 CEST
+
+BeginCmp
+TimeStamp = /53D12222;
+Reference = C1;
+ValeurCmp = 12p;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D12239;
+Reference = C2;
+ValeurCmp = 12p;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D11EFC;
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D14175;
+Reference = C4;
+ValeurCmp = 4u7;
+IdModule  = Capacitors_ThroughHole:Capacitor5x11RM2.5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D22FD1;
+Reference = D1;
+ValeurCmp = 5V transil;
+IdModule  = SMD_Packages:DO-214AA(SMB);
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13E5F;
+Reference = D2;
+ValeurCmp = 3V6;
+IdModule  = Diodes_SMD:Diode-MiniMELF_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13E1A;
+Reference = D3;
+ValeurCmp = 3V6;
+IdModule  = Diodes_SMD:Diode-MiniMELF_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13B6C;
+Reference = F1;
+ValeurCmp = 500mA;
+IdModule  = Fuse_Holders_and_Fuses:Fuse_standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D103D2;
+Reference = IC1;
+ValeurCmp = ATMEGA8-AI;
+IdModule  = SMD_Packages:TQFP32;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13838;
+Reference = J1;
+ValeurCmp = USB;
+IdModule  = Connect:USB_MINI_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D11EE8;
+Reference = L1;
+ValeurCmp = 10uH;
+IdModule  = Inductors_NEOSID:Neosid_Inductor_SM-NE30_SMD1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D132A2;
+Reference = P1;
+ValeurCmp = ISP;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x06;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D253F0;
+Reference = P2;
+ValeurCmp = Comunication;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x14;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D25037;
+Reference = P3;
+ValeurCmp = Input/Output;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x14;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D12063;
+Reference = R1;
+ValeurCmp = 4k7;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13CFB;
+Reference = R2;
+ValeurCmp = 68;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D13D12;
+Reference = R3;
+ValeurCmp = 68;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D14544;
+Reference = R4;
+ValeurCmp = 1k5;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10FCD;
+Reference = R5;
+ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10FB6;
+Reference = R6;
+ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10CA0;
+Reference = U1;
+ValeurCmp = MCP4725A0T;
+IdModule  = SMD_Packages:SOT23_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D10E7B;
+Reference = U2;
+ValeurCmp = MCP4725A0T;
+IdModule  = SMD_Packages:SOT23_6;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D1212E;
+Reference = X1;
+ValeurCmp = 16MHz;
+IdModule  = Crystals:Crystal_HC50-U_Vertical;
+EndCmp
+
+EndListe
