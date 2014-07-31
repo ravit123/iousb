@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Pá 25. červenec 2014, 13:30:14 CEST
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Po 28. červenec 2014, 18:18:40 CEST
 
 BeginCmp
 TimeStamp = /53D12222;
@@ -47,6 +47,13 @@ TimeStamp = /53D13E1A;
 Reference = D3;
 ValeurCmp = 3V6;
 IdModule  = Diodes_SMD:Diode-MiniMELF_Standard;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D674BF;
+Reference = D4;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -137,6 +144,13 @@ BeginCmp
 TimeStamp = /53D10FB6;
 Reference = R6;
 ValeurCmp = 1k;
+IdModule  = SMD_Packages:SM0603_Resistor;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D67575;
+Reference = R7;
+ValeurCmp = 150;
 IdModule  = SMD_Packages:SM0603_Resistor;
 EndCmp
 
