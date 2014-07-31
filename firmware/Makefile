@@ -98,6 +98,8 @@ COMPILE = avr-gcc -Wall -Os -DF_CPU=$(F_CPU) $(CFLAGS) -mmcu=$(DEVICE)
 
 
 # symbolic targets:
+hex: main.hex
+
 help:
 	@echo "This Makefile has no default rule. Use one of the following:"
 	@echo "make hex ....... to build main.hex"
@@ -106,7 +108,7 @@ help:
 	@echo "make flash ..... to flash the firmware (use this on metaboard)"
 	@echo "make clean ..... to delete objects and hex file"
 
-hex: main.hex
+#hex: main.hex
 
 program: flash fuse
 
@@ -152,7 +154,7 @@ main.elf: usbdrv $(OBJECTS)	# usbdrv dependency only needed because we copy it
 main.hex: main.elf
 	rm -f main.hex main.eep.hex
 	avr-objcopy -j .text -j .data -O ihex main.elf main.hex
-	avr-size main.hex
+	avr-size --mcu=$(DEVICE) --format=avr main.o
 
 # debugging targets:
 

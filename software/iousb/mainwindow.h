@@ -3,6 +3,11 @@
 
 #include <QMainWindow>
 #include <QDoubleValidator>
+#include <usb.h>        /* this is libusb */
+#include "opendevice.h" /* common code moved to separate module */
+
+#include "../firmware/usbconfig.h"  /* device's VID/PID and names */
+
 namespace Ui {
 class MainWindow;
 }
@@ -20,6 +25,8 @@ private:
     void digital_dir_all(int dir_num);
     void digital_val_all(int val_num);
     void digital_enable_all(bool enable);
+    void send_port();
+
 
 private Q_SLOTS:
     void digital_dir_0();
@@ -35,6 +42,10 @@ private Q_SLOTS:
     void digital_check();
     void analogin_check();
     void analogout_check();
+
+    void LEDon();
+    void LEDoff();
+
 
 };
 
